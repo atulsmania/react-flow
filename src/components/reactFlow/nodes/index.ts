@@ -10,19 +10,19 @@ export const initialNodes: Node[] = [
         id: 'a',
         type: CustomNodeTypes.SendMessage,
         position: { x: 0, y: 0 },
-        data: { label: 'wire', message: 'Test Message 1' },
+        data: { label: 'send message', message: 'Test Message 1' },
     },
     {
         type: CustomNodeTypes.SendMessage,
         id: 'b',
         position: { x: 200, y: 100 },
-        data: { label: 'your ideas', message: 'Test Message 2' },
+        data: { label: 'send message', message: 'Test Message 2' },
     },
     {
         id: 'c',
         type: CustomNodeTypes.SendMessage,
         position: { x: 200, y: -100 },
-        data: { label: 'with React Flow', message: 'Test Message 3' },
+        data: { label: 'send message', message: 'Test Message 3' },
     },
     {
         id: 'd',
